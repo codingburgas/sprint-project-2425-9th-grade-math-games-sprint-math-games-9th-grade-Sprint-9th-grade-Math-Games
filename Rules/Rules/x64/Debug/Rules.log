@@ -1,6 +1,0 @@
-﻿  Rules.cpp
-C:\Users\wweewe\source\repos\Rules\Rules\Rules.cpp(47,18): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\wweewe\source\repos\Rules\Rules\Rules.cpp(48,18): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-  Rules.vcxproj -> C:\Users\wweewe\source\repos\Rules\x64\Debug\Rules.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
