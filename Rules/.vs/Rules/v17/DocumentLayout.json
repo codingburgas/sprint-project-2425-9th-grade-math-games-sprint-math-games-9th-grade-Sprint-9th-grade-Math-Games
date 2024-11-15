@@ -1,0 +1,55 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wweewe\\sprint-math-games-9th-grade-pixelstorm\\Rules\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AFEF60E4-F82E-49BF-9F97-A37C42B28A95}|Rules\\Rules.vcxproj|C:\\Users\\wweewe\\sprint-math-games-9th-grade-pixelstorm\\Rules\\Rules\\Rules.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AFEF60E4-F82E-49BF-9F97-A37C42B28A95}|Rules\\Rules.vcxproj|solutionrelative:Rules\\Rules.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFEF60E4-F82E-49BF-9F97-A37C42B28A95}|Rules\\Rules.vcxproj|C:\\Users\\wweewe\\sprint-math-games-9th-grade-pixelstorm\\Rules\\Rules\\Rules.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AFEF60E4-F82E-49BF-9F97-A37C42B28A95}|Rules\\Rules.vcxproj|solutionrelative:Rules\\Rules.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Rules.h",
+              "DocumentMoniker": "C:\\Users\\wweewe\\sprint-math-games-9th-grade-pixelstorm\\Rules\\Rules\\Rules.h",
+              "RelativeDocumentMoniker": "Rules\\Rules.h",
+              "ToolTip": "C:\\Users\\wweewe\\sprint-math-games-9th-grade-pixelstorm\\Rules\\Rules\\Rules.h",
+              "RelativeToolTip": "Rules\\Rules.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-15T15:50:02.897Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Rules.cpp",
+              "DocumentMoniker": "C:\\Users\\wweewe\\sprint-math-games-9th-grade-pixelstorm\\Rules\\Rules\\Rules.cpp",
+              "RelativeDocumentMoniker": "Rules\\Rules.cpp",
+              "ToolTip": "C:\\Users\\wweewe\\sprint-math-games-9th-grade-pixelstorm\\Rules\\Rules\\Rules.cpp",
+              "RelativeToolTip": "Rules\\Rules.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-15T15:23:13.453Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
