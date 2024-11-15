@@ -1,6 +1,6 @@
 ﻿  Menu.cpp
-C:\Users\wweewe\sprint-math-games-9th-grade-pixelstorm\Menu\Menu\Menu.cpp(17,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\wweewe\sprint-math-games-9th-grade-pixelstorm\Menu\Menu\Menu.cpp(16,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\wweewe\sprint-math-games-9th-grade-pixelstorm\Menu\Menu\Menu.cpp(31,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\wweewe\sprint-math-games-9th-grade-pixelstorm\Menu\Menu\Menu.cpp(32,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   Menu.vcxproj -> C:\Users\wweewe\sprint-math-games-9th-grade-pixelstorm\Menu\x64\Debug\Menu.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.
