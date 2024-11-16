@@ -18,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test6thGrade.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\sprint-math-games-9th-grade-pixelstorm\\Test6thGrade\\Test6thGrade\\Test6thGrade.cpp",
+              "RelativeDocumentMoniker": "Test6thGrade\\Test6thGrade.cpp",
+              "ToolTip": "C:\\Users\\user\\Documents\\sprint-math-games-9th-grade-pixelstorm\\Test6thGrade\\Test6thGrade\\Test6thGrade.cpp",
+              "RelativeToolTip": "Test6thGrade\\Test6thGrade.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-16T20:02:17.427Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
@@ -34,21 +47,7 @@
               "RelativeToolTip": "Test6thGrade\\Test6thGrade.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-16T20:37:54.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Test6thGrade.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\sprint-math-games-9th-grade-pixelstorm\\Test6thGrade\\Test6thGrade\\Test6thGrade.cpp",
-              "RelativeDocumentMoniker": "Test6thGrade\\Test6thGrade.cpp",
-              "ToolTip": "C:\\Users\\user\\Documents\\sprint-math-games-9th-grade-pixelstorm\\Test6thGrade\\Test6thGrade\\Test6thGrade.cpp",
-              "RelativeToolTip": "Test6thGrade\\Test6thGrade.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-16T20:02:17.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T20:37:54.019Z"
             }
           ]
         }
