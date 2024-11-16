@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\Test6thGrade\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6555D7-C7C9-406A-8CFA-7820A03D6177}|Test6thGrade\\Test6thGrade.vcxproj|C:\\Users\\user\\source\\repos\\Test6thGrade\\Test6thGrade\\Test6thGrade.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4D6555D7-C7C9-406A-8CFA-7820A03D6177}|Test6thGrade\\Test6thGrade.vcxproj|solutionrelative:Test6thGrade\\Test6thGrade.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test6thGrade.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Test6thGrade\\Test6thGrade\\Test6thGrade.cpp",
+              "RelativeDocumentMoniker": "Test6thGrade\\Test6thGrade.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Test6thGrade\\Test6thGrade\\Test6thGrade.cpp",
+              "RelativeToolTip": "Test6thGrade\\Test6thGrade.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-16T20:02:17.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
