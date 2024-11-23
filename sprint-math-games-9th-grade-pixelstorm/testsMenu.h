@@ -16,5 +16,6 @@ bool isMouseOverButton(ButtonTests button); // Check if mouse is over a button
 bool updateButtonTests(ButtonTests& button);
 void drawButtonTests(ButtonTests button);        // Draw a button
 void drawMenuTests();
-
+void fifthGrade();
+void sixthGrade();
 

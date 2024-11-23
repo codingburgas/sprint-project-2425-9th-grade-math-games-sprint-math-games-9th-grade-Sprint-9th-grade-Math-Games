@@ -1,14 +1,22 @@
-﻿  menu.cpp
-  rules.cpp
-C:\Users\ewewwewe\sprint-math-games-9th-grade-pixelstorm\sprint-math-games-9th-grade-pixelstorm\menu.cpp(32,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\ewewwewe\sprint-math-games-9th-grade-pixelstorm\sprint-math-games-9th-grade-pixelstorm\menu.cpp(33,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+﻿  rules.cpp
+  test5thGrade.cpp
 C:\Users\ewewwewe\sprint-math-games-9th-grade-pixelstorm\sprint-math-games-9th-grade-pixelstorm\rules.cpp(49,18): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 C:\Users\ewewwewe\sprint-math-games-9th-grade-pixelstorm\sprint-math-games-9th-grade-pixelstorm\rules.cpp(50,18): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-  sprint-math-games-9th-grade-pixelstorm.cpp
+  test6thGrade.cpp
   testsMenu.cpp
 C:\Users\ewewwewe\sprint-math-games-9th-grade-pixelstorm\sprint-math-games-9th-grade-pixelstorm\testsMenu.cpp(32,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 C:\Users\ewewwewe\sprint-math-games-9th-grade-pixelstorm\sprint-math-games-9th-grade-pixelstorm\testsMenu.cpp(33,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   Generating Code...
-  sprint-math-games-9th-grade-pixelstorm.vcxproj -> C:\Users\ewewwewe\sprint-math-games-9th-grade-pixelstorm\x64\Debug\sprint-math-games-9th-grade-pixelstorm.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
+rules.obj : error LNK2005: "bool __cdecl isMouseOverButton(struct Button)" (?isMouseOverButton@@YA_NUButton@@@Z) already defined in menu.obj
+test5thGrade.obj : error LNK2005: "bool __cdecl isMouseOverButton(struct Button)" (?isMouseOverButton@@YA_NUButton@@@Z) already defined in menu.obj
+test6thGrade.obj : error LNK2005: "bool __cdecl isMouseOverButton(struct Button)" (?isMouseOverButton@@YA_NUButton@@@Z) already defined in menu.obj
+testsMenu.obj : error LNK2005: "bool __cdecl isMouseOverButton(struct Button)" (?isMouseOverButton@@YA_NUButton@@@Z) already defined in menu.obj
+rules.obj : error LNK2019: unresolved external symbol "bool __cdecl isMouseOverButton(struct Rectangle)" (?isMouseOverButton@@YA_NURectangle@@@Z) referenced in function "void __cdecl rules(void)" (?rules@@YAXXZ)
+test5thGrade.obj : error LNK2001: unresolved external symbol "bool __cdecl isMouseOverButton(struct Rectangle)" (?isMouseOverButton@@YA_NURectangle@@@Z)
+test6thGrade.obj : error LNK2001: unresolved external symbol "bool __cdecl isMouseOverButton(struct Rectangle)" (?isMouseOverButton@@YA_NURectangle@@@Z)
+    Hint on symbols that are defined and could potentially match:
+      "bool __cdecl isMouseOverButton(struct Button)" (?isMouseOverButton@@YA_NUButton@@@Z)
+testsMenu.obj : error LNK2019: unresolved external symbol "bool __cdecl isMouseOverButton(struct ButtonTests)" (?isMouseOverButton@@YA_NUButtonTests@@@Z) referenced in function "bool __cdecl updateButtonTests(struct ButtonTests &)" (?updateButtonTests@@YA_NAEAUButtonTests@@@Z)
+    Hint on symbols that are defined and could potentially match:
+      "bool __cdecl isMouseOverButton(struct Button)" (?isMouseOverButton@@YA_NUButton@@@Z)
+C:\Users\ewewwewe\sprint-math-games-9th-grade-pixelstorm\x64\Debug\sprint-math-games-9th-grade-pixelstorm.exe : fatal error LNK1120: 2 unresolved externals

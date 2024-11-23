@@ -2,7 +2,7 @@
 #include "menu.h"
 #include "rules.h"
 // Function to check if the mouse is over a button
-bool isMouseOverButton(ButtonTests button) {
+bool isMouseOverButton(Button button) {
     // Get the current mouse position and check if it is inside the button's bounds
     return CheckCollisionPointRec(GetMousePosition(), button.bounds);
 }
@@ -42,7 +42,7 @@ void drawMenuTests() {
     InitWindow(800, 550, "Menu");
 
     // Load the background image for the menu from the specified path
-    Texture2D background = LoadTexture("assets/menu.png");
+    Texture2D background = LoadTexture("C:/Users/ewewwewe/sprint-math-games-9th-grade-pixelstorm/assets/1.png");
 
     // Check if the background image loaded successfully, otherwise exit the program
     if (background.width == 0 || background.height == 0) {
@@ -72,14 +72,14 @@ void drawMenuTests() {
         // Check if any of the buttons are clicked
         // If a button is clicked, handle it here 
         if (updateButtonTests(buttons[0])) {
-            // Handle the "Play" button click 
+            fifthGrade();
         }
         if (updateButtonTests(buttons[1])) {
 
-            rules();
+            sixthGrade();
         }
         if (updateButtonTests(buttons[2])) {
-            break;  // Exit the program when the "Exit" button is clicked
+            seventhGrade();  // Exit the program when the "Exit" button is clicked
         }
 
         // Loop through each button and draw it on the screen

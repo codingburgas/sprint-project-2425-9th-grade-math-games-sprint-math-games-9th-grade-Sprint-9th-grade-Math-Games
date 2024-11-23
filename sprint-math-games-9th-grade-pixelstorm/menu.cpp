@@ -42,7 +42,7 @@ void drawMenu() {
     InitWindow(800, 550, "Menu");
 
     // Load the background image for the menu from the specified path
-    Texture2D background = LoadTexture("assets/menu.png");
+    Texture2D background = LoadTexture("C:/Users/ewewwewe/sprint-math-games-9th-grade-pixelstorm/assets/tests.png");
 
     // Check if the background image loaded successfully, otherwise exit the program
     if (background.width == 0 || background.height == 0) {

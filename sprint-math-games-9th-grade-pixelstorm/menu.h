@@ -1,7 +1,6 @@
 #pragma once
 #include "raylib.h"
 #include <cstdlib>
-// Screen dimensions
 
 // Button structure with hover effect
 struct Button {

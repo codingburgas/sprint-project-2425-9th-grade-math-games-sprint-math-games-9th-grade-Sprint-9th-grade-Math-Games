@@ -1,8 +1,8 @@
 #include "rules.h"
 #include "menu.h"
 // Function to check if the mouse is over the button
-bool isMouseOverButton(Rectangle buttonBounds) {
-    return CheckCollisionPointRec(GetMousePosition(), buttonBounds);  // Returns true if mouse is over button
+bool isMouseOverButton(Button button) {
+    return CheckCollisionPointRec(GetMousePosition(), button.bounds); // Returns true if mouse is over button
 }
 
 void rules() {

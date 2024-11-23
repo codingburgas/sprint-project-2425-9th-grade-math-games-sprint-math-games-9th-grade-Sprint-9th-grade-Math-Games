@@ -130,11 +130,17 @@
     <ClCompile Include="menu.cpp" />
     <ClCompile Include="rules.cpp" />
     <ClCompile Include="sprint-math-games-9th-grade-pixelstorm.cpp" />
+    <ClCompile Include="test5thGrade.cpp" />
+    <ClCompile Include="test6thGrade.cpp" />
+    <ClCompile Include="test7thGrade.cpp" />
     <ClCompile Include="testsMenu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="menu.h" />
     <ClInclude Include="rules.h" />
+    <ClInclude Include="test5thGrade.h" />
+    <ClInclude Include="test6thGrade.h" />
+    <ClInclude Include="test7thGrade.h" />
     <ClInclude Include="testsMenu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
