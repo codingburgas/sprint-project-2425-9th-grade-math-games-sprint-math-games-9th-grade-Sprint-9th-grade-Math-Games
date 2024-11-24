@@ -1,49 +1,50 @@
 #include <iostream>
+
 using namespace std;
 
 void Menu() {
-//Function which prints the game name and menu options
-cout << " /$$      /$$                           /$$ /$$          " << endl;
-cout << "| $$  /$ | $$                          | $$| $$          " << endl;
-cout << "| $$ /$$$| $$  /$$$$$$   /$$$$$$   /$$$$$$$| $$  /$$$$$$ " << endl;
-cout << "| $$/$$ $$ $$ /$$__  $$ /$$__  $$ /$$__  $$| $$ /$$__  $$" << endl;
-cout << "| $$$$_  $$$$| $$  | $$| $$  |__/| $$  | $$| $$| $$$$$$$$" << endl;
-cout << "| $$$/ |  $$$| $$  | $$| $$      | $$  | $$| $$| $$_____/" << endl;
-cout << "| $$/   |  $$|  $$$$$$/| $$      |  $$$$$$$| $$|  $$$$$$$" << endl;
-cout << "|__/     |__/ \______/ |__/       |_______/|__/ |_______/" << endl;
+    // Function which prints the game name and menu options
+    cout << " /$$      /$$                           /$$ /$$          " << endl;
+    cout << "| $$  /$ | $$                          | $$| $$          " << endl;
+    cout << "| $$ /$$$| $$  /$$$$$$   /$$$$$$   /$$$$$$$| $$  /$$$$$$ " << endl;
+    cout << "| $$/$$ $$ $$ /$$__  $$ /$$__  $$ /$$__  $$| $$ /$$__  $$" << endl;
+    cout << "| $$$$_  $$$$| $$  | $$| $$  |__/| $$  | $$| $$| $$$$$$$$" << endl;
+    cout << "| $$$/ |  $$$| $$  | $$| $$      | $$  | $$| $$| $$_____/ " << endl;
+    cout << "| $$/   |  $$|  $$$$$$/| $$      |  $$$$$$$| $$|  $$$$$$$ " << endl;
+    cout << "|__/     |__/ \______/ |__/       |_______/|__/ |_______/ " << endl;
 
-int choice;
+    int choice;
 
-string Words[about, other, which, their, there, would, could, these, every, after, think, being, those, never, where, shall, world, under, still, great, right, place, again, small, found, given, white, state, house, might, night, often, water, since, early, until, among, later, sense, began, least, human, power, point, asked, money, study, young, known, times, heart, group, whole, words, means, above, light, white, order, class, bring, today, large, story, among, music, field, worth, works, below, black, happy, words, lives, terms, makes, month, clear, truth, quite, court, mind, heard, learn, south, north, build, trade, peace, shows, helps, check, claim, dream, based, reach, event, style, wrong, force, focus, local, stage, broke, wrote, calls];
-//All the possible words that can be 
-do 
-{
-cout << "   1. Play\n   2. How To Play\n    3. Exit" << endl;
-cin >> choice;
+    do {
+        cout << "   1. Play\n   2. How To Play\n    3. Exit" << endl;
+        cin >> choice;
 
-switch(choice) 
-{
+        switch (choice) {
+        case 1:
+            // Play the game
 
-case 1:
-//play
-break;
+            break;
 
-case 2:
-//Tutorial how to play
-cout << "\n";
-break;
+        case 2:
+            // Tutorial on how to play
+            cout << "1. Start with a Guess: Enter any valid 5-letter word to gather clues about the hidden word."
+                cout << "2. Check the Feedback: Green = correct position, Yellow = wrong position, Gray = not in the word."
+                cout << "3. Refine Your Guesses: Use feedback to make smarter guesses; avoid repeating gray letters, position yellows correctly."
+                cout << "4. Win or Lose: Guess the word in 6 tries to win; otherwise, the hidden word is revealed."
 
-case 3:
-//exit
-return 0;
-cout << "Bye\n";
-break;
+                break;
 
-default:
-cout << "Invalid option\n";
-break;
-}
-} while (choice != 3);
+        case 3:
+            // Exit the game
+            cout << "Bye\n";
+            return;  // Exit the Menu function
+            break;
+
+        default:
+            cout << "Invalid option\n";
+            break;
+        }
+    } while (choice != 3);
 }
 
 
