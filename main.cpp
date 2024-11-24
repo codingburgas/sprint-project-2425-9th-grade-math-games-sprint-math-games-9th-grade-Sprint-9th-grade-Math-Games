@@ -1,4 +1,6 @@
 #include <iostream>
+#include <cstdlib> // For rand() and srand()
+#include <ctime>   // For seeding rand()
 
 using namespace std;
 
@@ -24,7 +26,9 @@ void Menu() {
         switch (choice) {
         case 1: {
             // Play the game
-            const char word[6] = "Apple"; // The hidden word
+            const char* words[] = { "Apple", "Mango", "Pearl", "Lemon", "Grape", "Peach" };
+            srand(time(0));
+            const char* word = words[rand() % 6]; // Choose a random word
             char guess[6];               // The player's guess
             const int maxTries = 6;      // Number of attempts allowed
 
@@ -35,8 +39,11 @@ void Menu() {
             bool won = false;
 
             for (int attempt = 1; attempt <= maxTries; ++attempt) {
-                cout << "\nAttempt " << attempt << " - Enter your 5-letter word: ";
+                cout << "\nAttempt " << attempt << " - Enter your 5-letter word: " << endl;
+
+                cout << "+------+" << endl;
                 cin >> guess;
+                cout << "+------+" << endl;
 
                 // Manual length check
                 int length = 0;
@@ -91,6 +98,18 @@ void Menu() {
                 cout << "Sorry! You've used all your attempts. The word was: " << word << ". Better luck next time!\n";
             }
 
+            static int wins = 0, losses = 0;
+            if (won) {
+                ++wins;
+            }
+            else {
+                ++losses;
+            }
+
+            cout << "\nYour score: " << wins << " Wins, " << losses << " Losses\n";
+            // Adds scoring
+
+
             break;
         }
 
@@ -119,4 +138,5 @@ void Menu() {
 int main() {
     Menu();
     return 0;
+}
 }
