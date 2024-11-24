@@ -26,7 +26,17 @@ void Menu() {
         switch (choice) {
         case 1: {
             // Play the game
-            const char* words[] = { "Apple", "Mango", "Pearl", "Lemon", "Grape", "Peach" };
+            const char* words[] = { "apple", "mango", "pearl", "lemon", "grape", "peach" "about", "other", "which", "their", "there", "would", "could", "these", "every", "after",
+    "think", "being", "those", "never", "where", "shall", "world", "under", "still", "great",
+    "right", "place", "again", "small", "found", "given", "white", "state", "house", "might",
+    "night", "often", "water", "since", "early", "until", "among", "later", "sense", "began",
+    "least", "human", "power", "point", "asked", "money", "study", "young", "known", "times",
+    "heart", "group", "whole", "words", "means", "above", "light", "white", "order", "class",
+    "bring", "today", "large", "story", "among", "music", "field", "worth", "works", "below",
+    "black", "happy", "words", "lives", "terms", "makes", "month", "clear", "truth", "quite",
+    "court", "mind", "heard", "learn", "south", "north", "build", "trade", "peace", "shows",
+    "helps", "check", "claim", "dream", "based", "reach", "event", "style", "wrong", "force",
+    "focus", "local", "stage", "broke", "wrote", "calls" };
             srand(time(0));
             const char* word = words[rand() % 6]; // Choose a random word
             char guess[6];               // The player's guess
@@ -85,7 +95,16 @@ void Menu() {
                     }
                 }
 
-                cout << "Feedback: " << feedback << endl;
+                cout << "Feedback: ";
+                for (int i = 0; i < 5; ++i) {
+                    if (feedback[i] == '*')
+                        cout << "\033[1;32m" << guess[i] << "\033[0m"; // Green for correct
+                    else if (feedback[i] == '+')
+                        cout << "\033[1;33m" << guess[i] << "\033[0m"; // Yellow for misplaced
+                    else
+                        cout << "\033[1;31m" << guess[i] << "\033[0m"; // Red for incorrect
+                }
+                cout << endl;
 
                 if (correct) {
                     cout << "Congratulations! You've guessed the word: " << word << "!\n";
@@ -136,7 +155,14 @@ void Menu() {
 }
 
 int main() {
-    Menu();
+    do { // Replay option
+        Menu();
+        cout << "\nDo you want to play again? (y/n): ";
+        char replay;
+        cin >> replay;
+        if (replay != 'y' && replay != 'Y') {
+            break;
+        }
+    } while (true);
     return 0;
-}
 }
