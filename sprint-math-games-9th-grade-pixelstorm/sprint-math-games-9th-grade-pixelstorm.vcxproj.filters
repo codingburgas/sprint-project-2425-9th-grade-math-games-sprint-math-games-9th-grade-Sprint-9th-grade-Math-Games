@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="sprint-math-games-9th-grade-pixelstorm.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="menu.cpp">
@@ -27,13 +27,13 @@
     <ClCompile Include="testsMenu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="test5thGrade.cpp">
+    <ClCompile Include="tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="test6thGrade.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="button.cpp">
+      <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="test7thGrade.cpp">
+    <ClCompile Include="gameManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -47,13 +47,13 @@
     <ClInclude Include="testsMenu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="test5thGrade.h">
+    <ClInclude Include="tests.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="test6thGrade.h">
+    <ClInclude Include="button.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="test7thGrade.h">
+    <ClInclude Include="gameManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
