@@ -8,8 +8,7 @@
 <hr>
 <h2>📷Screenshots</h2>
 <p align = "center"><img src = "#" width = #>
-<img src = "W" alt = "Settings screenshot" width = 600px>
-<img src = "W"  alt = "#" width = 600px>
+<img src = "/Assets/Screenshot.jpg" alt = "Settings screenshot" width = 600px>
 </p>
 <hr>
 <h2>📥Installation</h2>
@@ -20,11 +19,11 @@
 <h2>📃Documents</h2>
 <h3>Documentation</h3>
 <ul>
-<li><a href="#" download>Documentation</a></li>
+<li><a href="/Documents/Syntax.docx" download>Documentation</a></li>
 </ul>
 <h3>Presentation</h3>
 <ul>
-<li><a href="#" download>Presentation</a></li>
+<li><a href="/Documents/Syntax Squad.pptx" download>Presentation</a></li>
 </ul>
 <hr>
 <h2>🖥️Technologies</h2>
